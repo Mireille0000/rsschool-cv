@@ -14,9 +14,9 @@
 *****
 
 I am a linguist with two foreign languages skills (French and English). 
-This year I graduated from university and decided to learn Web 
+This year I've graduated from university and decided to learn Web 
 as programming always was my interest and I'd love that it becomes my job as soon as 
-it seems to me that programming is connected with linguistics, and it opens new perspectives 
+it is connected with linguistics, and it opens new perspectives 
 in understanding what language is. I’m happy to start the way with RSSchool! 
 
 
