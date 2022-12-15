@@ -10,28 +10,108 @@
 <body>
     <div class="container">
         <header>
+            <nav>
+                <ul class="contents">
+                    <li class="table_of_contents"><a href=#profile>Profile</a></li>
+                    <li class="table_of_contents"><a href=#education>Edication</a></li>
+                    <li class="table_of_contents"><a href=#skills>Skills</a></li>
+                    <li class="table_of_contents"><a href=#code_ex>Code example</a></li>
+                </ul>  
+            </nav>
+
             <h1>Tamara Gasanova</h1>
-            <img src="me.jpg" width="200" height="200" alt="my sister and I">
+            <h3>Frontend developer (beginner)</h3>
+            <div class="img">
+                <img src="meme.jpg" width="200" height="200" alt="my charming face">
+            </div>
+            
+            <section>
+                <h2>Contacts</h2>
+                    <div>
+                        <ul>
+                            <li class="contacts">
+                                <img src="mail1.png" width="20" height="20" alt="my mail">
+                                <p>solas93@mail.ru</p>
+                            </li>
+                            <li class="contacts">
+                                <img src="telegram.png" width="20" height="20" alt="my telegram">
+                                <p>Tamara4635</p>
+                            </li>
+                        </ul>
+                    </div>
+            </section>
         </header>
-        <div>
-            <h3>About me</h3>
-            <p></p>
-        </div>
-        <div>
-            <h3>Education</h3>
-        </div>
-        <div>
-            <h3>Code exemple</h3>
-        </div>
-        <div>
-            <h3>Skills</h3>
-        </div>
-        <div>
-            <h3>Languages</h3>
-        </div>
-        <div>
-            <h3>Contacts</h3>
-        </div>
+
+        <main>
+            <section>
+                <h2 id="profile">Profile</h2>
+                <p class="right">I am a linguist with two foreign languages skills(French and English) and I'm working as a translator(French). This year I've graduated from university 
+                    and decided to learn programming as it had been my interest for a long time though I couldn't start for lack of time. I would love
+                    to study JS and Web programming as soon as it is about languages as well and to work as a developer one day. As for my strong points, I am
+                    hard-working, responsible and creative. My weaknesses can be formulated as 'she is interested in too many things and needs at least 
+                    10 lives'. I do. Anyway, I am happy to start this course and this way!
+                </p>
+            </section>
+
+            <section>
+                <h2 id="education">Education</h2>
+                <ul class="right">
+                    <li>Musical college, Belgorod (flutist, teacher)</li>
+                    <li>Moscow city university, Moscow (linguist)</li>
+                    <li>FreeCodeCamp Legacy Responsive Web Design</li>
+                    <li>JavaScript Manual on learnjavascript.ru (in progress)</li>
+                    <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                    <li>FreeCodeCamp JavaScript Algorithms and Data Structures (in progress)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2 id="skills">Skills</h2>
+                <ul class="right">
+                    <li>HTML, CSS</li>
+                    <li>JS(basics)</li>
+                    <li>Git, GitHub(basics)</li>
+                    <li>VS Code</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2 id="code_ex">Code exemple</h2>
+                <p>Just a loop <em>for</em> that adds the value of each element of the array to <em>total.</em></p>
+                <div class="code">
+                    <pre>
+                        <code>
+                            const myArr = [2, 3, 4, 5, 6];
+
+                            let total = 0;
+                            for (let i = 0; i <span>&lt;</span> myArr.length; i++ ) {
+                              total += myArr[i];
+                            }
+                        </code>
+                    </pre>   
+                </div> 
+            </section>
+
+            <section>
+                <h2>Languages</h2>
+                <ul>
+                    <li>Russian native speaker</li>
+                    <li>French(C1)</li>
+                    <li>English(B1+)</li>
+                    <li>Italian(A1)</li>
+                </ul>
+            </section>
+        </main>
     </div>
+
+    <footer>
+        <div>
+            <ul>
+                <li class="footer"><a href="https://github.com/Mireille0000"><img src="github.png" width="30" height="30" alt="My GitHub"></a></li>
+                <li class="footer"><p>2022</p></li>
+                <li class="footer"><a href="https://rs.school/js-stage0/"><img src="rs.svg" width="50" height="50" alt="RSSchool"></a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
