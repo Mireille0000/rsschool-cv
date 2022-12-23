@@ -28,8 +28,10 @@ h2 {
     text-align: left;
 }
 
-footer {
-   background-color: var(--li_color); 
+.block_footer {
+    background-color: var(--li_color); 
+    margin: 0px;
+    padding: 0px;
 }
 
 .contents a {
@@ -46,7 +48,7 @@ li {
 }
 
 .table_of_contents {
-    width:22%;
+    width: 22%;
     display: inline-block;
     text-align: center;
     background-color: rgb(154, 119, 187);
@@ -64,8 +66,14 @@ li {
 }
 
 .container {
-    margin: 20px;
-    padding: 20px 40px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
     background-color: rgb(103, 161, 142);
 }
 
