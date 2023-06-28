@@ -1,6 +1,6 @@
 # Tamara Gasanova
 
-! [my photo](/rsschool-cv/my-photo.jpg)
+[My photo](/rsschool-cv/my-photo.jpg)
 
 ## Contacts
 * solas93@mail.ru
