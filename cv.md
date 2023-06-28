@@ -35,7 +35,7 @@ function strCount(obj){
 
 ## Projects
 
-[I've made a momentum application (JS only, HTML and CSS as well as other necessary files were provided by RSchool)](https://rolling-scopes-school.github.io/mireille0000-JSFEPRESCHOOL2022Q4/momentum/)
+[I've partly made a momentum application (JS only, HTML and CSS as well as other necessary files were provided by RSSchool)](https://rolling-scopes-school.github.io/mireille0000-JSFEPRESCHOOL2022Q4/momentum/)
 
 ## Education
 
