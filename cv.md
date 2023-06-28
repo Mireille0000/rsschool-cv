@@ -24,11 +24,9 @@ I am a linguist with two foreign languages skills (French and English) and I'm w
 function strCount(obj){
   let strings = 0;
   for (let i in obj) {
-
     if (typeof obj[i] == 'object') strings += strCount(obj[i]);
 
     if (typeof obj[i] == 'string') strings += 1;
-
   }
   return strings;
 };
