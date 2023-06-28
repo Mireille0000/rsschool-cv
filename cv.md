@@ -44,7 +44,7 @@ function strCount(obj){
 * FreeCodeCamp Legacy Responsive Web Design (completed)
 * FreeCodeCamp JavaScript Algorithms and Data Structures (in progress)
 * JavaScript Manual on learnjavascript.ru (in progress)
-* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+* RSSchool Course «JavaScript/Front-end. Stage 0» (in progress)
 
 ## Languages
 
