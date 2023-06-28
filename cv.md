@@ -19,11 +19,12 @@ I am a linguist with two foreign languages skills (French and English) and I'm w
 
 ## Code example
 
-```javascript, codewars kyu 7
-
+javascript, codewars kyu 7, Count strings in objects
+```
 function strCount(obj){
   let strings = 0;
   for (let i in obj) {
+
     if (typeof obj[i] == 'object') strings += strCount(obj[i]);
 
     if (typeof obj[i] == 'string') strings += 1;
