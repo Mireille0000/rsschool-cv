@@ -1,5 +1,4 @@
-# RSSchool CV
-## Tamara Gasanova
+# Tamara Gasanova
 
 ! [my photo](/rsschool-cv/my-photo.jpg)
 
@@ -23,9 +22,7 @@ I am a linguist with two foreign languages skills (French and English) and I'm w
 ```javascript, codewars kyu 7
 
 function strCount(obj){
-
   let strings = 0;
-
   for (let i in obj) {
 
     if (typeof obj[i] == 'object') strings += strCount(obj[i]);
@@ -33,15 +30,13 @@ function strCount(obj){
     if (typeof obj[i] == 'string') strings += 1;
 
   }
-
   return strings;
-
 };
 ```
 
 ## Projects
 
-![I've made a momentum application (JS only, HTML and CSS as well as other necessary files were provided by RSchool)](https://rolling-scopes-school.github.io/mireille0000-JSFEPRESCHOOL2022Q4/momentum/)
+[I've made a momentum application (JS only, HTML and CSS as well as other necessary files were provided by RSchool)](https://rolling-scopes-school.github.io/mireille0000-JSFEPRESCHOOL2022Q4/momentum/)
 
 ## Education
 
