@@ -11,6 +11,46 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper_cv {
     background-color: #bad293;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    min-height: 100vh;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+
+    margin-left: 340px;
+    padding-top: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+code {
+    background-color: #c6c6b0;
+}
+
+.code_example {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
     margin: 0;
 }
+

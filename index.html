@@ -7,9 +7,10 @@
     <title>CV</title>
 </head>
 <body>
+    <div class="wrapper_cv">
     <header>
         <nav>
-            <ul>
+            <ul class="navigation">
                 <li>Profile</li>
                 <li>Contacts</li>
                 <li>Skills</li>
@@ -48,7 +49,21 @@
         
         <section class="code_example">
             <h2>Code example</h2>
-            <code></code>
+            <code>
+                <pre>
+                    function strCount(obj){
+                        let strings = 0;
+                        for (let i in obj) {
+                                   
+                        if (typeof obj[i] == 'object') strings += strCount(obj[i]);
+                                   
+                        if (typeof obj[i] == 'string') strings += 1;
+                        }
+                        return strings;
+                    };
+                </pre>
+            </code>
+             
         </section>
 
         <section class="education">
@@ -80,5 +95,6 @@
             <img src="" alt="RSSchool link">
         </section>
     </footer>
+</div>
 </body>
 </html>
