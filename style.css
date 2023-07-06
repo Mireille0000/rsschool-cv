@@ -33,12 +33,17 @@ body {
     justify-content: space-between;
     text-align: right;
 
-    margin-left: 340px;
+    margin-left: 540px;
     padding-top: 30px;
 }
 
 li {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
 }
 
 code {
