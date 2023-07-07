@@ -88,7 +88,7 @@ h2 {
     margin-right: 10px;
 }
 
-/* skills and code section */
+/* skills and code sections */
 
 .skills-and-code {
     display: flex;
@@ -129,6 +129,21 @@ pre {
     color: #e17b07
 }
 
+/* education and languages sections */
+
+.education-languages {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    margin: 20px 80px;
+}
+
+/* projects section */
+
+.projects {
+    text-align: center;
+}
 .footer {
     display: flex;
     flex-direction: row;
