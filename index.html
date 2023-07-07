@@ -49,21 +49,20 @@
         
         <section class="code_example">
             <h2>Code example</h2>
-            <code id="code">
-                <pre>
-                    function strCount(obj){
-                        let strings = 0;
-                        for (let i in obj) {
+            <pre> 
+                <code id="code">
+                <span class="color-code_blue">function</span> <span class="code-color_yellow">strCount</span>(<span class="code-color_sky">obj</span>){
+                    <span class="color-code_blue">let</span> <span class="code-color_sky">strings</span> = 0;
+                        <span class="color-code_violet">for</span> (<span class="color-code_blue">let</span> <span class="code-color_sky">i</span> <span class="color-code_blue">in</span> obj) {
                                    
-                        if (typeof obj[i] == 'object') strings += strCount(obj[i]);
+                        <span class="color-code_violet">if</span> (<span class="color-code_blue">typeof</span> <span class="code-color_sky">obj</span>[<span class="code-color_sky">i</span>] == <span class="code-color_yellow">'object'</span>) <span class="code-color_sky">strings</span> += <span class="code-color_yellow">strCount</span>(<span class="code-color_sky">obj</span>[<span class="code-color_sky">i</span>]);
                                    
-                        if (typeof obj[i] == 'string') strings += 1;
+                        <span class="color-code_violet">if</span> (<span class="color-code_blue">typeof</span> <span class="code-color_sky">obj</span>[<span class="code-color_sky">i</span>] == <span class="code-color_yellow">'string'</span>) <span class="code-color_sky">strings</span> += 1;
                         }
-                        return strings;
+                    <span class="color-code_violet">return</span> <span class="code-color_sky">strings</span>;
                     };
-                </pre>
-            </code>
-             
+                </code>
+            </pre>
         </section>
 
         <section class="education">
