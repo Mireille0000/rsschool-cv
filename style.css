@@ -89,4 +89,10 @@ pre {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    margin: 0 40px 0 20px;
+}
+
+.footer_year {
+    margin-top: 35px;
 }
