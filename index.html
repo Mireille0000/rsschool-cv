@@ -24,46 +24,51 @@
     <main>
         <h1>Tamara Gasanova</h1>
         <section class="profile">
-            <h2 id="profile">Profile</h2>
-            <p>I am a linguist with two foreign languages skills (French and English) and I'm working as a translator. Last year I’ve graduated from university and decided to learn Web development as programming has been my passion for a long time as thought-provoking and extremely interesting field of activities. That's why I’d love that one day it became my major activity. As a bonus, programming is connected with linguistics (as languages are still dear to me), it opens new perspectives in understanding what language is, so my actual skills could be applicated as well. </p>
+            <img class="img" src="my-photo.jpg" alt="my_photo" width="170" height="170">
+            <div class="profile_information">
+                <h2 id="profile">Profile</h2>
+                <p>I am a linguist with two foreign languages skills (French and English) and I'm working as a translator. Last year I’ve graduated from university and decided to learn Web development as programming has been my passion for a long time as thought-provoking and extremely interesting field of activities. That's why I’d love that one day it became my major activity. As a bonus, programming is connected with linguistics (as languages are still dear to me), it opens new perspectives in understanding what language is, so my actual skills could be applicated as well. </p>
+            </div> 
         </section>
 
         <section class="contacts">
             <h2 id="contacts">Contacts</h2>
-            <ul>
-                <li>solas93@mail.ru</li>
-                <li>@Tamara4635</li>
-                <li>Toma#6275</li>
+            <ul class="my-contacts-list">
+                <li><img class="img-contacts" src="mail-icon.png" alt="mail" width="20" height="20">solas93@mail.ru</li>
+                <li><img class="img-contacts" src="telegramm-icon.png" alt="telegramm" width="20" height="20">@Tamara4635</li>
+                <li><img class="img-contacts" src="discord-icon.svg" alt="dicord" width="20" height="20">Toma#6275</li>
             </ul>
         </section>
 
-        <section class="skills">
-            <h2>Skills</h2>
-            <ul id="skills">
-                <li>HTML, CSS</li>
-                <li>JavaScript</li>
-                <li>VS Code</li>
-                <li>Git, GitHub</li>
-            </ul>
-        </section>
-        
-        <section class="code_example">
-            <h2>Code example</h2>
-            <pre> 
-                <code id="code">
-                <span class="color-code_blue">function</span> <span class="code-color_yellow">strCount</span>(<span class="code-color_sky">obj</span>){
-                    <span class="color-code_blue">let</span> <span class="code-color_sky">strings</span> = 0;
-                        <span class="color-code_violet">for</span> (<span class="color-code_blue">let</span> <span class="code-color_sky">i</span> <span class="color-code_blue">in</span> obj) {
-                                   
-                        <span class="color-code_violet">if</span> (<span class="color-code_blue">typeof</span> <span class="code-color_sky">obj</span>[<span class="code-color_sky">i</span>] == <span class="code-color_yellow">'object'</span>) <span class="code-color_sky">strings</span> += <span class="code-color_yellow">strCount</span>(<span class="code-color_sky">obj</span>[<span class="code-color_sky">i</span>]);
-                                   
-                        <span class="color-code_violet">if</span> (<span class="color-code_blue">typeof</span> <span class="code-color_sky">obj</span>[<span class="code-color_sky">i</span>] == <span class="code-color_yellow">'string'</span>) <span class="code-color_sky">strings</span> += 1;
-                        }
-                    <span class="color-code_violet">return</span> <span class="code-color_sky">strings</span>;
-                    };
-                </code>
-            </pre>
-        </section>
+        <div class="skills-and-code">
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul id="skills">
+                    <li>HTML, CSS</li>
+                    <li>JavaScript</li>
+                    <li>VS Code</li>
+                    <li>Git, GitHub</li>
+                </ul>
+            </section>
+            
+            <section class="code_example">
+                <h2>Code example</h2>
+                <pre> 
+                    <code id="code">
+                    <span class="color-code_blue">function</span> <span class="code-color_yellow">strCount</span>(<span class="code-color_sky">obj</span>){
+                        <span class="color-code_blue">let</span> <span class="code-color_sky">strings</span> = 0;
+                            <span class="color-code_violet">for</span> (<span class="color-code_blue">let</span> <span class="code-color_sky">i</span> <span class="color-code_blue">in</span> obj) {
+                                    
+                            <span class="color-code_violet">if</span> (<span class="color-code_blue">typeof</span> <span class="code-color_sky">obj</span>[<span class="code-color_sky">i</span>] == <span class="code-color_yellow">'object'</span>) <span class="code-color_sky">strings</span> += <span class="code-color_yellow">strCount</span>(<span class="code-color_sky">obj</span>[<span class="code-color_sky">i</span>]);
+                                    
+                            <span class="color-code_violet">if</span> (<span class="color-code_blue">typeof</span> <span class="code-color_sky">obj</span>[<span class="code-color_sky">i</span>] == <span class="code-color_yellow">'string'</span>) <span class="code-color_sky">strings</span> += 1;
+                            }
+                        <span class="color-code_violet">return</span> <span class="code-color_sky">strings</span>;
+                        };
+                    </code>
+                </pre>
+            </section>
+        </div>
 
         <section class="education">
             <h2 id="education">Education</h2>
