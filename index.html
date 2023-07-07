@@ -23,8 +23,9 @@
     </header>
     <main>
         <h1>Tamara Gasanova</h1>
+        <h2>Linguist and future frontend developper</h2>
         <section class="profile">
-            <img class="img" src="my-photo.jpg" alt="my_photo" width="170" height="170">
+            <img class="img" src="my-photo.jpg" alt="my_photo" width="200" height="200">
             <div class="profile_information">
                 <h2 id="profile">Profile</h2>
                 <p>I am a linguist with two foreign languages skills (French and English) and I'm working as a translator. Last year I’ve graduated from university and decided to learn Web development as programming has been my passion for a long time as thought-provoking and extremely interesting field of activities. That's why I’d love that one day it became my major activity. As a bonus, programming is connected with linguistics (as languages are still dear to me), it opens new perspectives in understanding what language is, so my actual skills could be applicated as well. </p>
@@ -44,10 +45,13 @@
             <section class="skills">
                 <h2>Skills</h2>
                 <ul id="skills">
-                    <li>HTML, CSS</li>
-                    <li>JavaScript</li>
-                    <li>VS Code</li>
-                    <li>Git, GitHub</li>
+                    <li><img class="icons-skills" src="html-icon.png" alt="html-icon" width="20" height="20">HTML</li>
+                    <li><img class="icons-skills" src="css-icon.png" alt="css-icon" width="20" height="20">CSS</li>
+                    <li><img class="icons-skills" src="js-icon.png" alt="js-icon" width="20" height="20">JavaScript</li>
+                    <li><img class="icons-skills" src="vscode-icon.png" alt="vscode-icon" width="20" height="20">VS Code</li>
+                    <li><img class="icons-skills" src="git-icon.png" alt="git-icon" width="20" height="20">Git</li>
+                    <li><img class="icons-skills" src="github.png" alt="githib-icon" width="20" height="20">GitHub</li>
+                    <li><img class="icons-skills" src="figma-icon.png" alt="figma-icon" width="20" height="20">Figma</li>
                 </ul>
             </section>
             
@@ -55,16 +59,16 @@
                 <h2>Code example</h2>
                 <pre> 
                     <code id="code">
-                    <span class="color-code_blue">function</span> <span class="code-color_yellow">strCount</span>(<span class="code-color_sky">obj</span>){
-                        <span class="color-code_blue">let</span> <span class="code-color_sky">strings</span> = 0;
-                            <span class="color-code_violet">for</span> (<span class="color-code_blue">let</span> <span class="code-color_sky">i</span> <span class="color-code_blue">in</span> obj) {
+                <span class="color-code_blue">function</span> <span class="code-color_yellow">strCount</span>(<span class="code-color_sky">obj</span>){
+                    <span class="color-code_blue">let</span> <span class="code-color_sky">strings</span> = 0;
+                        <span class="color-code_violet">for</span> (<span class="color-code_blue">let</span> <span class="code-color_sky">i</span> <span class="color-code_blue">in</span> obj) {
                                     
                             <span class="color-code_violet">if</span> (<span class="color-code_blue">typeof</span> <span class="code-color_sky">obj</span>[<span class="code-color_sky">i</span>] == <span class="code-color_yellow">'object'</span>) <span class="code-color_sky">strings</span> += <span class="code-color_yellow">strCount</span>(<span class="code-color_sky">obj</span>[<span class="code-color_sky">i</span>]);
                                     
                             <span class="color-code_violet">if</span> (<span class="color-code_blue">typeof</span> <span class="code-color_sky">obj</span>[<span class="code-color_sky">i</span>] == <span class="code-color_yellow">'string'</span>) <span class="code-color_sky">strings</span> += 1;
                             }
-                        <span class="color-code_violet">return</span> <span class="code-color_sky">strings</span>;
-                        };
+                    <span class="color-code_violet">return</span> <span class="code-color_sky">strings</span>;
+                    };
                     </code>
                 </pre>
             </section>

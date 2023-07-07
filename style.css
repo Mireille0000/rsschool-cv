@@ -55,11 +55,15 @@ a {
 h1 {
     text-align: center;
     margin-top: 20px;
+
+    text-transform: uppercase;
 }
 
 h2 {
     text-align: center;
     margin-bottom: 20px;
+
+    text-transform: capitalize;
 }
 
 /* profile section */
@@ -68,13 +72,16 @@ h2 {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    gap: 180px;
+    gap: 150px;
 
     margin: 20px 80px;
+
+    line-height: 30px;
 }
 
 .img {
     border-radius: 50%;
+    margin-top: 30px;
 }
 
 /* contacts section */
@@ -96,6 +103,14 @@ h2 {
     flex-direction: row;
 
     margin: 20px 80px;
+}
+
+.skills {
+    line-height: 30px;
+}
+
+.icons-skills {
+    margin-right: 10px;
 }
 
 pre {
@@ -137,6 +152,8 @@ pre {
     flex-direction: row;
 
     margin: 20px 80px;
+
+    line-height: 30px;
 }
 
 /* projects section */
