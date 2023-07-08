@@ -45,7 +45,10 @@ body {
 }
 
 .navigation :hover {
-    color: #716bed;
+    font-weight: 800;
+    color: #4e47d7;
+    transition-duration: 1s;
+    transform: scale(1.2);
 }
 
 li {
@@ -113,11 +116,26 @@ hr {
     justify-content: space-between;
     flex-direction: row;
 
-    margin: 20px 80px;
+    margin: 40px 80px;
 }
 
 .skills {
     line-height: 30px;
+}
+
+#skills {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    font-size: large;
+}
+
+#skills :hover {
+    transition-duration: 1s;
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .icons-skills {
@@ -163,6 +181,12 @@ pre {
 }
 
 /* education and languages sections */
+
+.education_list :hover {
+    transition-duration: 1s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
 
 .education-languages {
     display: flex;
