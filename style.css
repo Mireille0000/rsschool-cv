@@ -124,6 +124,13 @@ hr {
     margin-right: 10px;
 }
 
+/* code section */
+
+.code_explanation {
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
 pre {
     background-color: #3a3a0d;
     color: #a18b8b;
