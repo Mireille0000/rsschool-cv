@@ -44,6 +44,14 @@ body {
     margin-bottom: 20px;
 }
 
+header {
+    background-color: #bad293;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .navigation :hover {
     font-weight: 800;
     color: #4e47d7;
@@ -80,6 +88,10 @@ hr {
     height: 2px;
 }
 
+main {
+    margin-top: 102px;
+}
+
 /* profile section */
 
 .profile {
@@ -93,6 +105,10 @@ hr {
     line-height: 30px;
 }
 
+.profile_prgph {
+    text-align: center;
+}
+
 .img {
     border-radius: 50%;
     margin-top: 30px;
@@ -101,7 +117,12 @@ hr {
 /* contacts section */
 
 .my-contacts-list {
-    text-align: center;
+    /* display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    margin-left: 400px; */
+    text-align: center; 
     line-height: 30px;
 }
 
@@ -123,19 +144,13 @@ hr {
     line-height: 30px;
 }
 
-#skills {
+.skills_list {
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
     flex-direction: row;
 
     font-size: large;
-}
-
-#skills :hover {
-    transition-duration: 1s;
-    transform: scale(1.2);
-    cursor: pointer;
 }
 
 .icons-skills {
@@ -182,12 +197,6 @@ pre {
 
 /* education and languages sections */
 
-.education_list :hover {
-    transition-duration: 1s;
-    transform: scale(1.2);
-    cursor: pointer;
-}
-
 .education-languages {
     display: flex;
     justify-content: space-between;
@@ -211,7 +220,11 @@ pre {
 
 .project_active {
     display: block;
-    text-align: center;
+    text-align: center;  
+}
+
+.project_prgph {
+   margin-top: 20px; 
 }
 
 .button_project {
@@ -235,6 +248,8 @@ pre {
     color:#bad293;
     transform: rotate(360deg);
     transition-duration: 2s;
+
+    margin-bottom: 10px;
 }
 
 
@@ -243,7 +258,6 @@ pre {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
 
     margin: 0 40px 0 20px;
 }

@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>CV</title>
-    <link rel="shortcut icon" href="rsschool.svg"/>
-...
+    <link rel="shortcut icon" href="rsschool.svg">
 </head>
 <body>
     <div class="wrapper_cv">
     <header>
-        <nav>
+        <nav class="nav-block">
             <ul class="navigation">
                 <li><a href="#profile">Profile</a></li>
                 <li><a href="#contacts">Contacts</a></li>
@@ -26,12 +25,12 @@
     </header>
     <main>
         <h1>Tamara Gasanova</h1>
-        <h2>Linguist and future frontend developer</h2>
+        <h2 id="profile">Linguist and future frontend developer</h2>
         <section class="profile">
             <img class="img" src="my-photo.jpg" alt="my_photo" width="200" height="200">
             <div class="profile_information">
-                <h2 id="profile">PROFILE</h2>
-                <p>I am a linguist with two foreign languages skills (French and English) and I'm working as a translator. Last year I’ve graduated from university and decided to learn Web development as programming has been my passion for a long time as thought-provoking and extremely interesting field of activities. That's why I’d love that one day it became my major activity. As a bonus, programming is connected with linguistics (as languages are still dear to me), it opens new perspectives in understanding what language is, so my actual skills could be applicated as well. </p>
+                <h2>PROFILE</h2>
+                <p class="profile_prgph">I am a linguist with two foreign languages skills (French and English) and I'm working as a translator. Last year I’ve graduated from university and decided to learn Web development as programming has been my passion for a long time as thought-provoking and extremely interesting field of activities. That's why I’d love that one day it became my major activity. As a bonus, programming is connected with linguistics (as languages are still dear to me), it opens new perspectives in understanding what language is, so my actual skills could be applicated as well. </p>
             </div> 
         </section>
 
@@ -46,8 +45,8 @@
 
         <div class="skills-and-code">
             <section class="skills">
-                <h2>SKILLS</h2>
-                <ul id="skills">
+                <h2 id="skills">SKILLS</h2>
+                <ul class="skills_list">
                     <li><img class="icons-skills" src="html-icon.png" alt="html-icon" width="40" height="40">HTML</li>
                     <li><img class="icons-skills" src="css-icon.png" alt="css-icon" width="40" height="40">CSS</li>
                     <li><img class="icons-skills" src="js-icon.png" alt="js-icon" width="40" height="40">JavaScript</li>
@@ -59,10 +58,10 @@
             </section>
             
             <section class="code_example">
-                <h2>CODE EXAMPLE</h2>
-                <div class="code_explanation">JavaScript, Codewars, kyu 7, Count strings in objects</div>
+                <h2 id="code">CODE EXAMPLE</h2>
+                <div class="code_explanation">JavaScript, Codewars, kyu 7, Count strings in objects.</div>
                 <pre> 
-                    <code id="code">
+                    <code>
                 <span class="color-code_blue">function</span> <span class="code-color_yellow">strCount</span>(<span class="code-color_sky">obj</span>){
                     <span class="color-code_blue">let</span> <span class="code-color_sky">strings</span> = 0;
                         <span class="color-code_violet">for</span> (<span class="color-code_blue">let</span> <span class="code-color_sky">i</span> <span class="color-code_blue">in</span> obj) {
@@ -84,7 +83,7 @@
             <div class="button_project">Click here</div>
             <div class="project">
                 <a href="https://rolling-scopes-school.github.io/mireille0000-JSFEPRESCHOOL2022Q4/momentum/" title="Momentum application"><img src="momentum.png" alt="momentum" width="200" height="110"></a>
-                <p>I've partly made Momentum application (JS only, HTML and CSS as well as other necessary files were provided by RSSchool)</p>
+                <p class="project_prgph">I've partly made Momentum application (JS only, HTML and CSS as well as other necessary files were provided by RSSchool).</p>
             </div>
         </section>
 
