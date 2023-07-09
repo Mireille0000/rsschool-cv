@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+    <link rel="shortcut icon" href="rsschool.svg">
+</head>
+<body>
+    <div class="wrapper_cv">
+    <header>
+        <nav class="nav-block">
+            <ul class="navigation">
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code example</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#languages">Languages</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <h1>Tamara Gasanova</h1>
+        <h2 id="profile">Linguist and future frontend developer</h2>
+        <section class="profile">
+            <img class="img" src="my-photo.jpg" alt="my_photo" width="200" height="200">
+            <div class="profile_information">
+                <h2>PROFILE</h2>
+                <p class="profile_prgph">I am a linguist with two foreign languages skills (French and English) and I'm working as a translator. Last year I’ve graduated from university and decided to learn Web development as programming has been my passion for a long time as thought-provoking and extremely interesting field of activities. That's why I’d love that one day it became my major activity. As a bonus, programming is connected with linguistics (as languages are still dear to me), it opens new perspectives in understanding what language is, so my actual skills could be applicated as well. </p>
+            </div> 
+        </section>
+
+        <section class="contacts">
+            <h2 id="contacts">CONTACTS</h2>
+            <ul class="my-contacts-list">
+                <li><img class="img-contacts" src="mail-icon.png" alt="mail" width="20" height="20">solas93@mail.ru</li>
+                <li><img class="img-contacts" src="telegramm-icon.png" alt="telegramm" width="20" height="20">@Tamara4635</li>
+                <li><img class="img-contacts" src="discord-icon.svg" alt="dicord" width="20" height="20">Toma#6275</li>
+            </ul>
+        </section>
+
+        <div class="skills-and-code">
+            <section class="skills">
+                <h2 id="skills">SKILLS</h2>
+                <ul class="skills_list">
+                    <li><img class="icons-skills" src="html-icon.png" alt="html-icon" width="40" height="40">HTML</li>
+                    <li><img class="icons-skills" src="css-icon.png" alt="css-icon" width="40" height="40">CSS</li>
+                    <li><img class="icons-skills" src="js-icon.png" alt="js-icon" width="40" height="40">JavaScript</li>
+                    <li><img class="icons-skills" src="vscode-icon.png" alt="vscode-icon" width="40" height="40">VS Code</li>
+                    <li><img class="icons-skills" src="git-icon.png" alt="git-icon" width="40" height="40">Git</li>
+                    <li><img class="icons-skills" src="github.png" alt="githib-icon" width="40" height="40">GitHub</li>
+                    <li><img class="icons-skills" src="figma-icon.png" alt="figma-icon" width="40" height="40">Figma</li>
+                </ul>
+            </section>
+            
+            <section class="code_example">
+                <h2 id="code">CODE EXAMPLE</h2>
+                <div class="code_explanation">JavaScript, Codewars, kyu 7, Count strings in objects.</div>
+                <pre> 
+                    <code>
+                <span class="color-code_blue">function</span> <span class="code-color_yellow">strCount</span>(<span class="code-color_sky">obj</span>){
+                    <span class="color-code_blue">let</span> <span class="code-color_sky">strings</span> = 0;
+                        <span class="color-code_violet">for</span> (<span class="color-code_blue">let</span> <span class="code-color_sky">i</span> <span class="color-code_blue">in</span> obj) {
+                                    
+                            <span class="color-code_violet">if</span> (<span class="color-code_blue">typeof</span> <span class="code-color_sky">obj</span>[<span class="code-color_sky">i</span>] == <span class="code-color_yellow">'object'</span>) <span class="code-color_sky">strings</span> += <span class="code-color_yellow">strCount</span>(<span class="code-color_sky">obj</span>[<span class="code-color_sky">i</span>]);
+                                    
+                            <span class="color-code_violet">if</span> (<span class="color-code_blue">typeof</span> <span class="code-color_sky">obj</span>[<span class="code-color_sky">i</span>] == <span class="code-color_yellow">'string'</span>) <span class="code-color_sky">strings</span> += 1;
+                            }
+                    <span class="color-code_violet">return</span> <span class="code-color_sky">strings</span>;
+                    };
+                    </code>
+                </pre>
+            </section>
+        </div>
+
+        <section class="projects">
+            <h2 id="project">PROJECTS</h2>
+            <p>I have some class projects that I've accomplished as a part of web development online courses. There is one of them.</p>
+            <div class="button_project">Click here</div>
+            <div class="project">
+                <a href="https://rolling-scopes-school.github.io/mireille0000-JSFEPRESCHOOL2022Q4/momentum/" title="Momentum application"><img src="momentum.png" alt="momentum" width="200" height="110"></a>
+                <p class="project_prgph">I've partly made Momentum application (JS only, HTML and CSS as well as other necessary files were provided by RSSchool).</p>
+            </div>
+        </section>
+
+        <div class="education-languages">
+            <section class="education">
+                <h2 id="education">EDUCATION</h2>
+                <ul class="education_list">
+                    <li>Musical college, Belgorod (flutist, teacher)</li>
+                    <li>Moscow city university, Moscow (linguist)</li>
+                    <li>FreeCodeCamp Legacy Responsive Web Design (completed)</li>
+                    <li>FreeCodeCamp JavaScript Algorithms and Data Structures (in progress)</li>
+                    <li>JavaScript Manual on learnjavascript.ru (in progress)</li>
+                    <li>RSSchool Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                </ul>
+            </section>
+
+            <section class="languages">
+                <h2 id="languages">LANGUAGES</h2>
+                <ul class="education_list">
+                    <li>Russian(native speaker)</li>
+                    <li>English (B1-B2)</li>
+                    <li>French(C1)</li>
+                    <li>Italian(A1)</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <div class="footer">
+            <a href="https://github.com/Mireille0000" title="My GitHub"><img src="gh_logo.svg" alt="GitHub link" width="70" height="70"></a>
+            <div class="footer_year">2023</div>
+            <a href="https://rs.school/js-stage0/" title="RSShool, stage0"><img src="rsschool.svg" alt="RSSchool link" width="70" height="70"></a>
+        </div>
+    </footer>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
