@@ -39,13 +39,13 @@ body {
 
     margin-left: 540px;
     margin-right: 10px;
-    padding-top: 30px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
 }
 
 header {
     overflow: hidden;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
 
@@ -90,7 +90,7 @@ hr {
 }
 
 main {
-    margin-top: 102px;
+    margin-top: 32px;
 }
 
 /* profile section */
@@ -242,7 +242,7 @@ pre {
 
 .button_project_active {
     margin-bottom: 10px;
-    
+
     color:#bad293;
     background-color: #285564;
     
